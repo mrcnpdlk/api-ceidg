@@ -2,11 +2,10 @@
 
 namespace Mrcnpdlk\Api\Ceidg\Sdk\StructType;
 
-use \WsdlToPhp\PackageBase\AbstractStructBase;
+use WsdlToPhp\PackageBase\AbstractStructBase;
 
 /**
  * This class stands for GetID StructType
- * @subpackage Structs
  */
 class GetID extends AbstractStructBase
 {
@@ -15,6 +14,7 @@ class GetID extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var string
      */
     public $AuthToken;
@@ -23,6 +23,7 @@ class GetID extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var string
      */
     public $DateFrom;
@@ -31,6 +32,7 @@ class GetID extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var string
      */
     public $DateTo;
@@ -39,6 +41,7 @@ class GetID extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var string
      */
     public $MigrationDateFrom;
@@ -47,16 +50,20 @@ class GetID extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var string
      */
     public $MigrationDateTo;
+
     /**
      * Constructor method for GetID
+     *
      * @uses GetID::setAuthToken()
      * @uses GetID::setDateFrom()
      * @uses GetID::setDateTo()
      * @uses GetID::setMigrationDateFrom()
      * @uses GetID::setMigrationDateTo()
+     *
      * @param string $authToken
      * @param string $dateFrom
      * @param string $dateTo
@@ -72,22 +79,27 @@ class GetID extends AbstractStructBase
             ->setMigrationDateFrom($migrationDateFrom)
             ->setMigrationDateTo($migrationDateTo);
     }
+
     /**
      * Get AuthToken value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return string|null
      */
     public function getAuthToken()
     {
         return isset($this->AuthToken) ? $this->AuthToken : null;
     }
+
     /**
      * Set AuthToken value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param string $authToken
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetID
      */
     public function setAuthToken($authToken = null)
@@ -101,24 +113,30 @@ class GetID extends AbstractStructBase
         } else {
             $this->AuthToken = $authToken;
         }
+
         return $this;
     }
+
     /**
      * Get DateFrom value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return string|null
      */
     public function getDateFrom()
     {
         return isset($this->DateFrom) ? $this->DateFrom : null;
     }
+
     /**
      * Set DateFrom value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param string $dateFrom
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetID
      */
     public function setDateFrom($dateFrom = null)
@@ -132,24 +150,30 @@ class GetID extends AbstractStructBase
         } else {
             $this->DateFrom = $dateFrom;
         }
+
         return $this;
     }
+
     /**
      * Get DateTo value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return string|null
      */
     public function getDateTo()
     {
         return isset($this->DateTo) ? $this->DateTo : null;
     }
+
     /**
      * Set DateTo value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param string $dateTo
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetID
      */
     public function setDateTo($dateTo = null)
@@ -163,24 +187,30 @@ class GetID extends AbstractStructBase
         } else {
             $this->DateTo = $dateTo;
         }
+
         return $this;
     }
+
     /**
      * Get MigrationDateFrom value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return string|null
      */
     public function getMigrationDateFrom()
     {
         return isset($this->MigrationDateFrom) ? $this->MigrationDateFrom : null;
     }
+
     /**
      * Set MigrationDateFrom value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param string $migrationDateFrom
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetID
      */
     public function setMigrationDateFrom($migrationDateFrom = null)
@@ -194,24 +224,30 @@ class GetID extends AbstractStructBase
         } else {
             $this->MigrationDateFrom = $migrationDateFrom;
         }
+
         return $this;
     }
+
     /**
      * Get MigrationDateTo value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return string|null
      */
     public function getMigrationDateTo()
     {
         return isset($this->MigrationDateTo) ? $this->MigrationDateTo : null;
     }
+
     /**
      * Set MigrationDateTo value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param string $migrationDateTo
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetID
      */
     public function setMigrationDateTo($migrationDateTo = null)
@@ -225,22 +261,30 @@ class GetID extends AbstractStructBase
         } else {
             $this->MigrationDateTo = $migrationDateTo;
         }
+
         return $this;
     }
+
     /**
      * Method called when an object has been exported with var_export() functions
      * It allows to return an object instantiated with the values
+     *
      * @see AbstractStructBase::__set_state()
+     *
      * @uses AbstractStructBase::__set_state()
+     *
      * @param array $array the exported values
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetID
      */
     public static function __set_state(array $array)
     {
         return parent::__set_state($array);
     }
+
     /**
      * Method returning the class name
+     *
      * @return string __CLASS__
      */
     public function __toString()

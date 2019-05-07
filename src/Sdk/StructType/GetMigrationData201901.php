@@ -2,11 +2,10 @@
 
 namespace Mrcnpdlk\Api\Ceidg\Sdk\StructType;
 
-use \WsdlToPhp\PackageBase\AbstractStructBase;
+use WsdlToPhp\PackageBase\AbstractStructBase;
 
 /**
  * This class stands for GetMigrationData201901 StructType
- * @subpackage Structs
  */
 class GetMigrationData201901 extends AbstractStructBase
 {
@@ -15,6 +14,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var string
      */
     public $AuthToken;
@@ -23,6 +23,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $NIP;
@@ -31,6 +32,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $REGON;
@@ -39,6 +41,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $NIP_SC;
@@ -47,6 +50,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $REGON_SC;
@@ -55,6 +59,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $Name;
@@ -63,6 +68,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $Province;
@@ -71,6 +77,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $County;
@@ -79,6 +86,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $Commune;
@@ -87,6 +95,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $City;
@@ -95,6 +104,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $Street;
@@ -103,6 +113,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $Postcode;
@@ -111,6 +122,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var string
      */
     public $DateFrom;
@@ -119,6 +131,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var string
      */
     public $DateTo;
@@ -127,6 +140,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $PKD;
@@ -135,6 +149,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfint
      */
     public $status;
@@ -143,6 +158,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring
      */
     public $UniqueId;
@@ -151,6 +167,7 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var string
      */
     public $MigrationDateFrom;
@@ -159,11 +176,14 @@ class GetMigrationData201901 extends AbstractStructBase
      * Meta informations extracted from the WSDL
      * - minOccurs: 0
      * - nillable: true
+     *
      * @var string
      */
     public $MigrationDateTo;
+
     /**
      * Constructor method for GetMigrationData201901
+     *
      * @uses GetMigrationData201901::setAuthToken()
      * @uses GetMigrationData201901::setNIP()
      * @uses GetMigrationData201901::setREGON()
@@ -183,7 +203,8 @@ class GetMigrationData201901 extends AbstractStructBase
      * @uses GetMigrationData201901::setUniqueId()
      * @uses GetMigrationData201901::setMigrationDateFrom()
      * @uses GetMigrationData201901::setMigrationDateTo()
-     * @param string $authToken
+     *
+     * @param string                                          $authToken
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $nIP
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $rEGON
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $nIP_SC
@@ -195,13 +216,13 @@ class GetMigrationData201901 extends AbstractStructBase
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $city
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $street
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $postcode
-     * @param string $dateFrom
-     * @param string $dateTo
+     * @param string                                          $dateFrom
+     * @param string                                          $dateTo
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $pKD
-     * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfint $status
+     * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfint    $status
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $uniqueId
-     * @param string $migrationDateFrom
-     * @param string $migrationDateTo
+     * @param string                                          $migrationDateFrom
+     * @param string                                          $migrationDateTo
      */
     public function __construct($authToken = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $nIP = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $rEGON = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $nIP_SC = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $rEGON_SC = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $name = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $province = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $county = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $commune = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $city = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $street = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $postcode = null, $dateFrom = null, $dateTo = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $pKD = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfint $status = null, \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $uniqueId = null, $migrationDateFrom = null, $migrationDateTo = null)
     {
@@ -226,22 +247,27 @@ class GetMigrationData201901 extends AbstractStructBase
             ->setMigrationDateFrom($migrationDateFrom)
             ->setMigrationDateTo($migrationDateTo);
     }
+
     /**
      * Get AuthToken value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return string|null
      */
     public function getAuthToken()
     {
         return isset($this->AuthToken) ? $this->AuthToken : null;
     }
+
     /**
      * Set AuthToken value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param string $authToken
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setAuthToken($authToken = null)
@@ -255,24 +281,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->AuthToken = $authToken;
         }
+
         return $this;
     }
+
     /**
      * Get NIP value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getNIP()
     {
         return isset($this->NIP) ? $this->NIP : null;
     }
+
     /**
      * Set NIP value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $nIP
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setNIP(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $nIP = null)
@@ -282,24 +314,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->NIP = $nIP;
         }
+
         return $this;
     }
+
     /**
      * Get REGON value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getREGON()
     {
         return isset($this->REGON) ? $this->REGON : null;
     }
+
     /**
      * Set REGON value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $rEGON
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setREGON(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $rEGON = null)
@@ -309,24 +347,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->REGON = $rEGON;
         }
+
         return $this;
     }
+
     /**
      * Get NIP_SC value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getNIP_SC()
     {
         return isset($this->NIP_SC) ? $this->NIP_SC : null;
     }
+
     /**
      * Set NIP_SC value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $nIP_SC
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setNIP_SC(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $nIP_SC = null)
@@ -336,24 +380,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->NIP_SC = $nIP_SC;
         }
+
         return $this;
     }
+
     /**
      * Get REGON_SC value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getREGON_SC()
     {
         return isset($this->REGON_SC) ? $this->REGON_SC : null;
     }
+
     /**
      * Set REGON_SC value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $rEGON_SC
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setREGON_SC(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $rEGON_SC = null)
@@ -363,24 +413,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->REGON_SC = $rEGON_SC;
         }
+
         return $this;
     }
+
     /**
      * Get Name value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getName()
     {
         return isset($this->Name) ? $this->Name : null;
     }
+
     /**
      * Set Name value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $name
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setName(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $name = null)
@@ -390,24 +446,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->Name = $name;
         }
+
         return $this;
     }
+
     /**
      * Get Province value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getProvince()
     {
         return isset($this->Province) ? $this->Province : null;
     }
+
     /**
      * Set Province value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $province
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setProvince(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $province = null)
@@ -417,24 +479,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->Province = $province;
         }
+
         return $this;
     }
+
     /**
      * Get County value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getCounty()
     {
         return isset($this->County) ? $this->County : null;
     }
+
     /**
      * Set County value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $county
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setCounty(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $county = null)
@@ -444,24 +512,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->County = $county;
         }
+
         return $this;
     }
+
     /**
      * Get Commune value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getCommune()
     {
         return isset($this->Commune) ? $this->Commune : null;
     }
+
     /**
      * Set Commune value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $commune
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setCommune(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $commune = null)
@@ -471,24 +545,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->Commune = $commune;
         }
+
         return $this;
     }
+
     /**
      * Get City value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getCity()
     {
         return isset($this->City) ? $this->City : null;
     }
+
     /**
      * Set City value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $city
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setCity(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $city = null)
@@ -498,24 +578,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->City = $city;
         }
+
         return $this;
     }
+
     /**
      * Get Street value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getStreet()
     {
         return isset($this->Street) ? $this->Street : null;
     }
+
     /**
      * Set Street value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $street
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setStreet(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $street = null)
@@ -525,24 +611,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->Street = $street;
         }
+
         return $this;
     }
+
     /**
      * Get Postcode value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getPostcode()
     {
         return isset($this->Postcode) ? $this->Postcode : null;
     }
+
     /**
      * Set Postcode value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $postcode
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setPostcode(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $postcode = null)
@@ -552,24 +644,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->Postcode = $postcode;
         }
+
         return $this;
     }
+
     /**
      * Get DateFrom value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return string|null
      */
     public function getDateFrom()
     {
         return isset($this->DateFrom) ? $this->DateFrom : null;
     }
+
     /**
      * Set DateFrom value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param string $dateFrom
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setDateFrom($dateFrom = null)
@@ -583,24 +681,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->DateFrom = $dateFrom;
         }
+
         return $this;
     }
+
     /**
      * Get DateTo value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return string|null
      */
     public function getDateTo()
     {
         return isset($this->DateTo) ? $this->DateTo : null;
     }
+
     /**
      * Set DateTo value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param string $dateTo
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setDateTo($dateTo = null)
@@ -614,24 +718,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->DateTo = $dateTo;
         }
+
         return $this;
     }
+
     /**
      * Get PKD value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getPKD()
     {
         return isset($this->PKD) ? $this->PKD : null;
     }
+
     /**
      * Set PKD value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $pKD
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setPKD(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $pKD = null)
@@ -641,24 +751,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->PKD = $pKD;
         }
+
         return $this;
     }
+
     /**
      * Get status value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfint|null
      */
     public function getStatus()
     {
         return isset($this->status) ? $this->status : null;
     }
+
     /**
      * Set status value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfint $status
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setStatus(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfint $status = null)
@@ -668,24 +784,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->status = $status;
         }
+
         return $this;
     }
+
     /**
      * Get UniqueId value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring|null
      */
     public function getUniqueId()
     {
         return isset($this->UniqueId) ? $this->UniqueId : null;
     }
+
     /**
      * Set UniqueId value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param \Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $uniqueId
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setUniqueId(\Mrcnpdlk\Api\Ceidg\Sdk\ArrayType\ArrayOfstring $uniqueId = null)
@@ -695,24 +817,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->UniqueId = $uniqueId;
         }
+
         return $this;
     }
+
     /**
      * Get MigrationDateFrom value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return string|null
      */
     public function getMigrationDateFrom()
     {
         return isset($this->MigrationDateFrom) ? $this->MigrationDateFrom : null;
     }
+
     /**
      * Set MigrationDateFrom value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param string $migrationDateFrom
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setMigrationDateFrom($migrationDateFrom = null)
@@ -726,24 +854,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->MigrationDateFrom = $migrationDateFrom;
         }
+
         return $this;
     }
+
     /**
      * Get MigrationDateTo value
      * An additional test has been added (isset) before returning the property value as
      * this property may have been unset before, due to the fact that this property is
      * removable from the request (nillable=true+minOccurs=0)
+     *
      * @return string|null
      */
     public function getMigrationDateTo()
     {
         return isset($this->MigrationDateTo) ? $this->MigrationDateTo : null;
     }
+
     /**
      * Set MigrationDateTo value
      * This property is removable from request (nillable=true+minOccurs=0), therefore
      * if the value assigned to this property is null, it is removed from this object
+     *
      * @param string $migrationDateTo
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public function setMigrationDateTo($migrationDateTo = null)
@@ -757,22 +891,30 @@ class GetMigrationData201901 extends AbstractStructBase
         } else {
             $this->MigrationDateTo = $migrationDateTo;
         }
+
         return $this;
     }
+
     /**
      * Method called when an object has been exported with var_export() functions
      * It allows to return an object instantiated with the values
+     *
      * @see AbstractStructBase::__set_state()
+     *
      * @uses AbstractStructBase::__set_state()
+     *
      * @param array $array the exported values
+     *
      * @return \Mrcnpdlk\Api\Ceidg\Sdk\StructType\GetMigrationData201901
      */
     public static function __set_state(array $array)
     {
         return parent::__set_state($array);
     }
+
     /**
      * Method returning the class name
+     *
      * @return string __CLASS__
      */
     public function __toString()
