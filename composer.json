@@ -20,8 +20,9 @@
   },
   "require": {
     "php": ">=7.2",
-    "ext-curl": "*",
-    "ext-json": "*",
+    "ext-soap": "*",
+    "ext-mbstring": "*",
+    "wsdltophp/packagebase": "^2.0",
     "mrcnpdlk/lib-configuration": "^0",
     "mrcnpdlk/lib-exception": "^0",
     "myclabs/php-enum": "^1"
