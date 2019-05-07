@@ -1,0 +1,64 @@
+{
+  "name": "mrcnpdlk/api-ceidg",
+  "license": "MIT",
+  "homepage": "https://github.com/mrcnpdlk/api-ceidg",
+  "authors": [
+    {
+      "name": "Marcin Pudełek",
+      "email": "marcin@pudelek.org.pl",
+      "role": "Developer"
+    }
+  ],
+  "description": "Ceidg API",
+  "type": "library",
+  "time": "2019-05-07",
+  "keywords": [
+    "ceidg"
+  ],
+  "config": {
+    "optimize-autoloader": true
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "mrcnpdlk/lib-configuration": "^0",
+    "mrcnpdlk/lib-exception": "^0",
+    "myclabs/php-enum": "^1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.1.3",
+    "phpunit/php-code-coverage": "^7.0.3",
+    "friendsofphp/php-cs-fixer": "^2.9.3",
+    "phpstan/phpstan": "^0.11.5",
+    "phpstan/phpstan-phpunit": "^0.11",
+    "jangregor/phpstan-prophecy": "^0.4",
+    "monolog/monolog": "^1.9.1"
+  },
+  "suggest": {
+    "monolog/monolog": "Allows more advanced logging of the application flow"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Mrcnpdlk\\Api\\Ceidg\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Mrcnpdlk\\Api\\Ceidg\\": "tests/suits/"
+    }
+  },
+  "scripts": {
+    "test": [
+      "@phpstan",
+      "@lint",
+      "@phpunit"
+    ],
+    "phpunit": "phpunit --configuration phpunit.xml --coverage-text --colors=never",
+    "phpstan": "phpstan analyse",
+    "fixer": "php-cs-fixer fix --diff --show-progress=dots",
+    "lint": "php-cs-fixer fix --diff --dry-run"
+  }
+}
